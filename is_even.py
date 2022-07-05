@@ -1,6 +1,6 @@
 #Create a variable "number" and assign it a integer value.
 
-number = int(input("Enter a number: "))
+number = int(input())
 if (number % 2) == 0:
    print(1)
 else:
