@@ -9,12 +9,12 @@ c=var_int%100//10
 d=var_int%10
 
 if(a%2==0):
-    print(a)
+    print(1)
 if(b%2==0):
-    print(b)
+    print(2)
 if(c%2==0):
-    print(c)
+    print(3)
 if(d%2==0):
-    print(d)
+    print(4)
 
 #Print the number of even digits in the variable "var_int".
