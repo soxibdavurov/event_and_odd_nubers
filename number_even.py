@@ -8,7 +8,13 @@ b=var_int%1000//100
 c=var_int%100//10
 d=var_int%10
 
-print(a%2==0, b%2==0, c%2==0, d%2==0)
-
+if(a%2==0):
+    print(a)
+if(b%2==0):
+    print(b)
+if(c%2==0):
+    print(c)
+if(d%2==0):
+    print(d)
 
 #Print the number of even digits in the variable "var_int".
