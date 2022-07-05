@@ -2,7 +2,7 @@
 
 #Create a variable "var_int" and assign it a four-digit integer value.
 
-var_int = 1234
+var_int = int(1234)
 a=var_int//1000
 b=var_int%1000//100
 c=var_int%100//10
