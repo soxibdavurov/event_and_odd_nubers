@@ -4,7 +4,7 @@
 
 #Create a variable "sum_even" and assign it 0.
 
-var_int = int(1234)
+var_int = int()
 sum_even = 0
 
 
