@@ -4,7 +4,7 @@
 
 #Create a variable "sum_even" and assign it 0.
 
-var_int = int(input("Enter a four digit number: "))
+var_int = int(1234)
 sum_odd = 0
 
 
