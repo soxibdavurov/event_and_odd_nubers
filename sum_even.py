@@ -4,11 +4,11 @@
 
 #Create a variable "sum_even" and assign it 0.
 
-var_int = int(1234)
+var_int = int()
 sum_even = 0
 
 
-if(var_int > 999):
+if(var_int < 10000):
     while var_int > 0:
         b = var_int % 10
         if(b % 2 == 0 ):
