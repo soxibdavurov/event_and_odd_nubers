@@ -4,17 +4,14 @@
 
 #Create a variable "sum_even" and assign it 0.
 
-var_int = int()
+var_int = int(1234)
 sum_even = 0
 
 
-if(var_int > 999):
-    while var_int > 0:
-        var = var_int % 10
-        if(var % 2 != 0 ):
-            sum_even+=var
-        var_int//=10
-    print(sum_even)
-else:
-    print("Not a four digit number")
+while var_int > 0:
+    var = var_int % 10
+    if(var % 2 != 0 ):
+        sum_even+=var
+    var_int//=10
+print(sum_even)
 #Find the sum of the odd digits in the variable "var_int".
