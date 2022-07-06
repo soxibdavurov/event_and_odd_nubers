@@ -2,7 +2,7 @@
 
 #Create a variable "var_int" and assign it a four-digit integer value.
 
-var_int = int(input("Enter a four digit number: "))
+var_int = int(1234)
 
 
 if(var_int > 999):
