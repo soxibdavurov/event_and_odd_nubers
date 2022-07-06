@@ -10,9 +10,9 @@ sum_even = 0
 
 if(var_int > 999):
     while var_int > 0:
-        b = var_int % 10
-        if(b % 2 != 0 ):
-            sum_even+=b
+        var = var_int % 10
+        if(var % 2 != 0 ):
+            sum_even+=var
         var_int//=10
     print(sum_even)
 else:
