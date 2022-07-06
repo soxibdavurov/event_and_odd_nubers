@@ -2,14 +2,14 @@
 
 #Create a variable "var_int" and assign it a four-digit integer value.
 
-var_int = int(1234)
+var_int = int()
 
 
-if(var_int > 999):
+if(var_int < 10000):
     while var_int > 0:
-        b = var_int % 10
-        if(b % 2 == 0 ):
-            print(b)
+        var = var_int % 10
+        if(var % 2 == 0 ):
+            print(var)
         var_int//=10
     
 else:
